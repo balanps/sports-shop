@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.history-container{
+    width:100%;
+    min-height:200px;
+    padding:120px 70px;
+    display: flex;
+    gap:30px;
+}
+.history{
+    width:73%;
+}
+section form{
+    display: flex;
+}
+.history p{
+    padding-top:10px;
+    padding-bottom:14px;
+    line-height:1.6;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:18px;
+}
+.history img{
+    height:500px;
+    width:100%;
+}
+.history h1{
+    padding:10px 0px ;
+    color:darkslateblue;
+
+}
+section{
+    /* border:2px solid black;   */
+    box-shadow:1px 1px 2px black,-1px -1px 2px black;
+    width:25%;
+    min-height:200px;
+    padding:23px;
+}
+section input{
+    padding:7px;
+}
+section button{
+    background-color: orangered;
+    border:0;
+    padding:9px;
+}
+section h2,h3{
+    padding:13px 0px;
+}
+section h3{
+    color:darkslategrey;
+}
+section h2{
+    color:darkred;
+}
+
+@media screen and (max-width:780px) {
+    .history-container{
+        flex-direction: column;
+        padding:60px 30px;
+    }
+    .history{
+        width:100%;
+    }
+    section{
+        width:100%;
+        padding:14px;
+    }
+    section input {
+        width: 74%;
+    }
+}
+@media screen and (min-width:780px) and (max-width:1300px) {
+    .history-container{
+        flex-wrap: wrap;
+        padding:100px 30px;
+    }
+    .history{
+        width:63%;
+    }
+    section{
+        width:32%;
+        padding:14px;
+    }
+    section input {
+        width: 74%;
+    }
+}

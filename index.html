@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript website</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- container-->
+    <div class="container">
+        <!-- nav bar  -->
+
+        <nav>
+            <img src="./logo-fotor-bg-remover-2024011503431.png" />
+            <input type="checkbox" id="icon" />
+            <label for="icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <div class="nav-tools">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./product.html">Products</a>
+                <a href="./history.html">History</a>
+                <a href="./contact.html">Contact Us</a>
+                <button id="show-login"> Login </button>
+            </div>
+
+        </nav>
+
+        <!-- login box -->
+
+        <div class="login-box">
+
+            <div class="user-details" id="login-box">
+                <form>
+                <div class="x-close">
+                    <h1>Login now !</h1>
+                    <i class="fa-solid fa-xmark" id="close-icon"></i>
+                </div>
+                <label>Username</label>
+                <div class="input-icon">
+                    <input type='text' placeholder=" Enter Your Name" required />
+                    <i class="fa-regular fa-user"></i>
+                </div>
+
+                <label>Email-id</label>
+
+                <div class="input-icon">
+                    <input type='text' placeholder="Enter Your Email-id" required/>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <label>Password</label>
+
+                <div class="input-icon">
+                    <input type="text" placeholder="Enter Your Password" required/>
+                    <i class="fa-solid fa-key"></i>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            </div>
+
+        </div>
+
+        <!-- image slider  -->
+        <div class="slider">
+            <div class="slider-content">
+                <div id="div1">
+                    <div class="div1-content transform">
+                        <h2>Welcome to Our Sports Website</h2>
+                        <h1>SportAccord World Sport &
+                            Business Summit 2024</h1>
+                        <p>Sport pertains to any form of physical activity or game,[1] often competitive and organized,
+                            that aims to use, maintain, or improve physical ability and skills while providing enjoyment
+                            to participants and, in some cases, entertainment to spectators.[2] Sports can, through
+                            casual or organized participation, improve participants' physical health. Hundreds of sports
+                            exist, from those between single contestants, through to those with hundreds of simultaneous
+                            participants, either in teams or competing as individuals. In certain sports such as racing,
+                            many contestants may compete.</p>
+                        <button>Shop More</button>
+                    </div>
+                    <div class="div1-content">
+                        <img src="./slide.jpg" />
+                    </div>
+                </div>
+                <div id="div1">
+                    <div class="div1-content transform1">
+                        <h2>Welcome to Our Sports Website</h2>
+                        <h1>WE WORK WITH THE BEST SPORTS
+                        </h1>
+                        <p>Start and get more time and opportunities to improve your services with adjustable and
+                            customizable templates by Weblium. The domain’s construction will be done for you, so all
+                            that is left to do is to personalize the website. There are plenty of tools for that aim as
+                            well — add images, your branding, pick a color palette, UI elements, and more. The less
+                            nerve-wracking the process, the lower the chance of errors and mistakes — a statistically
+                            proven fact.
+
+                        </p>
+                        <button>Shop More</button>
+                    </div>
+                    <div class="div1-content">
+                        <img src="./sliderima.avif" />
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div onclick="side_slide(-1)" class="slideee left">
+                <span class="fas fa-angle-left"></span>
+            </div>
+            <div onclick="side_slide(1)" class="slideee right">
+                <span class="fas fa-angle-right"></span>
+            </div>
+        </div>
+
+
+        <!-- </div> -->
+        <!-- <div class="shopby-products"> -->
+        <h1 class="h1tag">Shop by products</h1>
+
+
+        <div class="pro1">
+
+            <div class="pro-img products">
+                <h1>Products</h1>
+                <p>Serving customers for nearly 3 decades, The Pavilion sports shop has consistently been entrenched as
+                    Quality Sports Product Dealer. From visitors to store like Mahendra Singh Dhoni, Sunil Gavaskar,
+                    Ricky Pointing to Richard Hadlee, we have been patronised by sports legends nationally and
+                    internationally. Not only we sell the highest number of cricket bats in India, we are the cricket
+                    specialist! Our store is also known for wide range of products for TT, Badminton, Fitness & Training
+                    accessories, Indoor games, Shoes and clothing.
+
+                </p>
+            </div>
+            <!-- 1st  -->
+            <div class="pro-img">
+                <img src="./volleyball.avif" />
+
+
+                <div class="hover">
+                    <h5>Volleyball is a team sport grounding a ball in which two teams of six players are separated by a
+                        net.</h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Volleyball <i class="fa-solid fa-heart"></i></h4>
+            </div>
+
+
+            <!-- 2nd  -->
+            <div class="pro-img">
+                <img src="./gym.avif" />
+                <div class="hover">
+                    <h5>Fitness is the condition of being physically fit and healthy and involves attributes that
+                        include.</h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Fitness <i class="fa-solid fa-heart"></i></h4>
+
+            </div>
+
+            <!-- 3rd  -->
+            <div class="pro-img">
+                <img src="./football.jpg" />
+                <div class="hover">
+                    <h5>Football, game in which two teams of 11 players, using any part of their bodies except their
+                        hands and arms</h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Football <i class="fa-solid fa-heart"></i></h4>
+
+            </div>
+
+            <!-- 4th  -->
+            <div class="pro-img">
+                <img src="./handball.avif" />
+                <div class="hover">
+                    <h5>Team handball, game played between two teams of 7 or 11 players who try to throw or hit an
+                        inflated ball into a goal.
+                    </h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Handball <i class="fa-solid fa-heart"></i></h4>
+
+            </div>
+
+            <!-- 5th -->
+            <div class="pro-img">
+                <img src="./tennis.avif" />
+                <div class="hover">
+                    <h5>Home of the Women's Tennis Association. Turn to the WTA for the best coverage of your favorite
+                        players!
+                    </h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Tennis <i class="fa-solid fa-heart"></i></>
+
+            </div>
+
+            <!-- 6th--->
+            <div class="pro-img">
+                <img src="./cricket.webp" />
+                <div class="hover">
+                    <h5>Cricket is one of many games in the "club ball" sphere that basically involve hitting a ball
+                        with a hand-held implement.</h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Cricket <i class="fa-solid fa-heart"></i></h4>
+
+            </div>
+
+            <!-- 7th -->
+            <div class="pro-img">
+                <img src="./basketball.webp" />
+                <div class="hover">
+                    <h5>Basketball, game played this team between two teams of five players each on a rectangular court.
+                    </h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Basketball <i class="fa-solid fa-heart"></i></h4>
+
+            </div>
+
+            <!-- 8th  -->
+            <div class="pro-img">
+                <img src="./shooe.avif" />
+                <div class="hover">
+                    <h5>A pair of shoes which provides a comfortable fit, shock-absorbing midsole cushioning will keep
+                        your feet comfortable for a long time.</h5>
+                    <button>Shop now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <h4>Shoes <i class="fa-solid fa-heart"></i></h4>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- white background imagess  -->
+    <h1 class="h1tag">Your Ultimate Sports Destination
+    </h1>
+
+    <div class="ultimate-sports">
+        <!-- 1st  -->
+        <div class="sports-image">
+            <img src="./a-1.png" />
+            <h2>Years in Sports Industry</h2>
+            <p>Expert in the field to guide your game.</p>
+        </div>
+        <!-- 2nd  -->
+        <div class="sports-image">
+            <img src="./a-2.svg" />
+            <h2>Professional Equipments</h2>
+            <p>Be it Beginner or Professionals, we have it all. </p>
+        </div>
+        <!-- 3rd  -->
+        <div class="sports-image">
+            <img src="./a-3.png" />
+            <h2>All under one roof</h2>
+            <p>Widest range of sports goods and Games at one place.</p>
+        </div>
+        <!-- 4th  -->
+        <div class="sports-image">
+            <img src="./a-4.png" />
+            <h2>Genuine Products</h2>
+            <p>Original goods to give maximum output to your performance.</p>
+        </div>
+        <!-- 5th  -->
+        <div class="sports-image">
+            <img src="./a-5.jpg" />
+            <h2>Sportskhel.com</h2>
+            <p>Buy online from the comfort of your home.</p>
+        </div>
+        <!-- 6th  -->
+        <div class="sports-image">
+            <img src="./a-6.png" />
+            <h2>Sports Range</h2>
+            <p>Find products from all major sports brands of world.</p>
+        </div>
+
+    </div>
+
+    <!-- weapon of lee settle cark player -->
+
+    <div class="settle-player">
+        <img src="./weapon.webp" />
+        <div class="weapon">
+            <h1>Weapon Of Lee Zii Jia!!! </h1>
+            <p>This extraordinary racket offers great offensive shots, given by its characteristics. The PowerBox
+                Technology supports the racket's owner - a lethal choice for offensive players. Lee Zii Jia (Malaysia)
+                used this racket to win the 2021 All England Men Singles title beating Viktor Axelsen (Denmark). </p>
+            <button>Shop now</button>
+        </div>
+
+    </div>
+
+
+    <!-- our brands  -->
+    <h1 class="h1tag">Our Brands</h1>
+
+    <div class="brands">
+        <img src="./c1.png" />
+        <img src="./c2.png" />
+        <img src="./c3.png" />
+        <img src="./c4.png" />
+        <img src="./c5.jpeg" />
+        <img src="./c6.png" />
+        <img src="./c7.png" />
+        <img src="./c8.jpeg" />
+    </div>
+
+    <!-- kids edit  -->
+    <h1 class="h1tag">Kid's Edit</h1>
+    <h3 class="kids-h3">Cheerful selections so that they can run, jump, and cheer</h3>
+    <div class="kids">
+        <img src="./d1.webp" />
+        <img src="./d2.webp" />
+    </div>
+
+
+    <!-- benefits of sports  -->
+
+    <div class="benefits">
+
+        <div class="more-content more-content1">
+            <h1>The benefits of moving more</h1>
+            <p>Being active isn't just about feeling stronger, fitter, more energetic and sleeping better. It's also
+                about having fun! </p>
+            <p>Kids need to be active for at least 60 minutes a day, with 30 minutes of this outside of school. This
+                should include 3 sessions a week of activity that strengthens muscles and bones, so mix it up! </p>
+            <p>And it's not just physically that kids benefits – being active also helps with mental health.
+
+            </p>
+        </div>
+        <div class="more-content">
+            <img src="./image.png" />
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+    <div class="foot-image">
+        <img src="./footer img.jpg" />
+        <footer>
+
+            <div class="foot-1 foot-tool">
+                <h2>Quick Links</h2>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    About</a>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Shopping</a>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Products</a>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Contacts</a>
+
+            </div>
+
+
+            <div class="foot-2 foot-tool">
+                <h2>Customer Service</h2>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Offers</a>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Shopping</a>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Payments</a>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Review</a>
+                <a><i class="fa-solid fa-angles-right"></i>&ensp;
+                    Return to store</a>
+            </div>
+
+            <div class="foot-3 foot-tool">
+                <h2>Our Branches</h2>
+                <a><i class="fa-solid fa-location-dot"></i>&ensp;Mumbai</a>
+                <a><i class="fa-solid fa-location-dot"></i>&ensp;
+                    India</a>
+                <a><i class="fa-solid fa-location-dot"></i>&ensp;
+                    Bangalore</a>
+                <a><i class="fa-solid fa-location-dot"></i>&ensp;
+                    Chennai</a>
+                <a><i class="fa-solid fa-location-dot"></i>&ensp;
+                    Kerala</a>
+            </div>
+
+            <div class="foot-3 foot-tool">
+                <h2>Follow Us</h2>
+                <a><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a><i class="fa-brands fa-square-instagram"></i> Instagram</a>
+                <a><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+                <a><i class="fa-solid fa-phone"></i> Contact</a>
+                <button>Click me</button>
+            </div>
+
+        </footer>
+    </div>
+
+
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
